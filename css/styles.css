@@ -1,0 +1,159 @@
+/* 
+_________________________________________        
+ _________________________________________       
+  _________________________________________      
+   _____/\\\\\\\\__/\\\\\\\\\\__/\\\\\\\\\\_     
+    ___/\\\//////__\/\\\//////__\/\\\//////__    
+     __/\\\_________\/\\\\\\\\\\_\/\\\\\\\\\\_   
+      _\//\\\________\////////\\\_\////////\\\_  
+       __\///\\\\\\\\__/\\\\\\\\\\__/\\\\\\\\\\_ 
+        ____\////////__\//////////__\//////////__
+         _________________________________________        
+          _________________________________________ 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', monospace;
+}
+
+
+/* -------------------Home----------------------- */
+
+.body-home {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    background-color: black;
+}
+
+header .social-media {
+    width: 100%;
+    display: grid;
+    background-color: #010102;
+}
+
+header .social-media .social-media-container {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+header i {
+    color: white;
+}
+
+header i:hover {
+    font-size: 50px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: inherit;
+    height: 80px;
+    background-image: url("../assets/img/fondo_home.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav .logo {
+    margin-left: 50px;
+    height: inherit;
+}
+
+nav .about {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .about a {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav .about a:hover {
+    text-decoration: underline;
+}
+
+nav .logo a img {
+    width: 80px;
+}
+
+main {
+    background-image: url("../assets/img/fondo_home.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    color: white;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.home-title-container,
+.home-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.home-button-container {
+    height: initial;
+}
+
+.home-button-container a {
+    text-align: center;
+    background-color: #010102;
+    border-radius: 10px;
+    padding: 20px 30px;
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.home-button-container a:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .6);
+}
+
+.home-title-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.home-title-container p:hover {
+    font-size: 40px;
+}
+
+
+/*-------------------------Blogs page------------------*/
