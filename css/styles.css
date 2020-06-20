@@ -302,11 +302,16 @@ footer .fotter {
     background-color: black;
     display: flex;
     justify-content: center;
-    height: auto;
+    <<<<<<< HEAD height: auto;
 }
 
 footer .fotter p {
-    padding: 20px;
+    =======
+}
+
+footer .fotter p {
+    width: auto;
+    >>>>>>>master padding: 20px;
 }
 
 @media screen and (max-width: 780px) {
