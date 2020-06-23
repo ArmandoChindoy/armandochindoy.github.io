@@ -270,6 +270,15 @@ footer .fotter p {
     width: auto;
 }
 
+.proyects .proyect h3 {
+    justify-self: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    width: auto;
+}
+
 .proyects-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -292,8 +301,8 @@ footer .fotter p {
 }
 
 .proyect p,
-a {
-    margin: 0 20px;
+.proyect a {
+    margin: 0 10px;
 }
 
 .proyect a {
@@ -318,7 +327,7 @@ a {
 
 .blog_main {
     display: grid;
-    grid-template-rows: 500px 2fr 1fr;
+    grid-template-rows: 500px 2fr 300px;
     grid-template-areas: 'image' 'proyect_text' 'contact';
     grid-gap: 20px;
     margin-bottom: 20px;
@@ -422,5 +431,23 @@ a {
     .contact {
         grid-template-columns: 1fr;
         grid-gap: 10px;
+        height: auto;
+    }
+    header .social-media .social-media-container {
+        width: auto;
+        justify-content: center;
+    }
+    header {
+        grid-template-rows: 1fr 1fr;
+    }
+    .proyects .proyect h3 {
+        font-size: 15px;
+    }
+    .proyects .proyect p,
+    .proyect a {
+        font-size: 10px;
+    }
+    .proyect a {
+        margin: 0 5px;
     }
 }
