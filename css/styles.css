@@ -410,7 +410,7 @@ footer .fotter p {
     border-bottom: rgba(0, 0, 0, .4) solid 2px;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
     .hero {
         grid-template-columns: 1fr;
     }
@@ -421,13 +421,13 @@ footer .fotter p {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
     .contact-container {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 320px) {
     .contact {
         grid-template-columns: 1fr;
         grid-gap: 10px;
@@ -440,12 +440,12 @@ footer .fotter p {
     header {
         grid-template-rows: 1fr 1fr;
     }
-    .proyects .proyect h3 {
-        font-size: 15px;
+    .hero-text span {
+        display: flex;
+        flex-wrap: wrap;
     }
-    .proyects .proyect p,
-    .proyect a {
-        font-size: 10px;
+    .hero-text a:first-child {
+        margin-bottom: 10px;
     }
     .proyect a {
         margin: 0 5px;
